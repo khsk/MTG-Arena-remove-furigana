@@ -1,16 +1,20 @@
 <style type="text/css">
 textarea {
-  float:left,
-  width: 50%;
+  width: 45%;
 }
 textarea + textarea {
-  margin-left: 1%
+  margin-left: 1%;
 }
+
+#contents {
+  text-align: center
+}
+
 </style>
 <head>
   <meta charset="utf-8"/>
 </head>
-<div>
+<div id="contents">
   <h1>MTA Arenaでエクスポートした状態で貼り付けてください</h1>
   <textarea id="export" rows="25" placeholder="こちらに貼り付けてください"></textarea>
   <textarea id="result" rows="25" placeholder="リアルタイムに更新されます"></textarea>
