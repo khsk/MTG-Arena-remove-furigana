@@ -22,8 +22,6 @@ textarea + textarea {
 
 
 <script>
-  // 雑なひらがな検知
-  const regex = new RegExp('（\W）', 'g')
   const result = document.querySelector('#result')
   document.querySelector('#export').addEventListener('input', e => {
     // 正規表現は候補はいろいろ。\Wを最短マッチでもわかりやすいか。パック名(M19)のカッコは半角なためここでは全角()を使いフリガナとしているが、一瞥のわかりやすさは低い。
