@@ -8,7 +8,7 @@
 
 <div>
   <h1>振り仮名を取り除いたテキスト</h1>
-  <textarea id="result" rows="25"placeholder="リアルタイムに更新されます"></textarea>
+  <textarea id="result" rows="25" placeholder="リアルタイムに更新されます"></textarea>
 </div>
 
 
