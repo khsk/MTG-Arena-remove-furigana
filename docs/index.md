@@ -1,13 +1,18 @@
+<style type="text/css">
+textarea {
+  float:left,
+  width: 50%;
+}
+textarea + textarea {
+  margin-left: 1%
+}
+</style>
 <head>
   <meta charset="utf-8"/>
 </head>
 <div>
   <h1>MTA Arenaでエクスポートした状態で貼り付けてください</h1>
-  <textarea id="export" rows="25"></textarea>
-</div>
-
-<div>
-  <h1>振り仮名を取り除いたテキスト</h1>
+  <textarea id="export" rows="25" placeholder="こちらに貼り付けてください"></textarea>
   <textarea id="result" rows="25" placeholder="リアルタイムに更新されます"></textarea>
 </div>
 
