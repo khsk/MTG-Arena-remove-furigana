@@ -15,7 +15,7 @@ textarea + textarea {
   <meta charset="utf-8"/>
 </head>
 <div id="contents">
-  <h1>MTA Arenaでエクスポートした状態で貼り付けてください</h1>
+  <h1>MTG Arenaでエクスポートした状態で貼り付けてください</h1>
   <textarea id="export" rows="25" placeholder="こちらに貼り付けてください"></textarea>
   <textarea id="result" rows="25" placeholder="リアルタイムに更新されます"></textarea>
 </div>
